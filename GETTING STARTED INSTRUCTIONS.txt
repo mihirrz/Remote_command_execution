@@ -1,0 +1,7 @@
+1. make clean
+2. make all
+3. 2 executables will be created inside /bin directory.
+4. ./server 
+5. ./client your_ip_address_here
+=================================
+Write commands on client window.
