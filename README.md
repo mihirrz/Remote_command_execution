@@ -2,17 +2,10 @@
 
 C++ remote command execution system for remote command execution.
 
-This project is a C++ remote command execution system that enables remote command execution and output retrieval through a simple client-server model. Developed using socket programming, the system allows the client to execute commands on the server remotely and receive the output.
+This project is a C++ remote command execution system that allows for the remote execution of Linux commands on other systems. Developed using socket programming, the system features a simple client-server model that enables users to execute commands remotely and receive the output. Leveraging the robust features of C++, the system ensures high performance and reliability, making it an ideal solution for organizations that need to remotely manage their IT infrastructure.
 
-Leveraging the robust features of C++, the system ensures high performance and reliability, making it an ideal solution for organizations that need to remotely manage their IT infrastructure. It also serves as a starting point for building more complex networked applications as it demonstrates the basics of socket programming and inter-process communication.
+The remote command execution system addresses the challenge of slow or unreliable remote command execution, enhancing the efficiency and effectiveness of IT infrastructure management for organizations. To use the system, users can clone the repository and follow the instructions provided in the README file to build and run the client and server applications. Once running, the client can connect to the server via a TCP socket and send commands to be executed remotely.
 
-The project addresses the challenge of slow or unreliable remote command execution, which has become a critical aspect of IT infrastructure management. The system provides a much-needed solution to this problem, enhancing the efficiency and effectiveness of IT infrastructure management for organizations.
+The server then executes these commands using the system shell and sends the output back to the client, which displays it on the console. By leveraging the robust features of C++ and socket programming, the remote command execution system provides high performance and reliability. This makes it an ideal solution for organizations that need to remotely manage their IT infrastructure, enabling them to execute commands quickly and reliably.
 
-To use this system, simply clone the repository and follow the instructions provided in the README file to build and run the client and server applications.
-
-Overall, this C++ remote command execution system is an efficient and reliable solution for remote command execution and output retrieval, making IT infrastructure management easier and more effective for organizations.
-
-
-
-
-
+Overall, this C++ remote command execution system is an efficient and reliable solution for remote command execution and output retrieval, making IT infrastructure management easier and more effective for organizations. With its simple client-server model, the project serves as a starting point for building more complex networked applications. By enabling the remote execution of Linux commands on other systems using socket programming, the system provides a valuable tool for IT infrastructure management in the modern digital landscape.
